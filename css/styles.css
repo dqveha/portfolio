@@ -11895,3 +11895,7 @@ html {
     -2px 0 1.5px #323e00;
   color: whitesmoke;
 }
+
+#wrapping {
+  overflow-wrap: break-word;
+}
