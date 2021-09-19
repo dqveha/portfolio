@@ -634,6 +634,7 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  box-shadow: 5px 10px 18px grey;
 }
 
 .img-thumbnail {
@@ -11898,4 +11899,8 @@ html {
 
 .wrapping {
   overflow-wrap: break-word;
+}
+
+.border-shadow {
+  box-shadow: 5px 20px 18px grey;
 }
