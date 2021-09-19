@@ -11896,6 +11896,6 @@ html {
   color: whitesmoke;
 }
 
-#wrapping {
+.wrapping {
   overflow-wrap: break-word;
 }
