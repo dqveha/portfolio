@@ -11712,6 +11712,9 @@ html {
     Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
+  -webkit-box-shadow: 0 6.5px 10px -10px black;
+  -moz-box-shadow: 0 6.5px 10px -10px black;
+       box-shadow: 0 6.5px 10px -10px black;
 }
 #mainNav .navbar-brand {
   color: #fff;
@@ -11791,6 +11794,9 @@ html {
   padding-top: calc(3rem + 74px);
   padding-bottom: 6rem;
   position: relative;
+  -webkit-box-shadow: 0 2px 6.5px -6.5px black;
+  -moz-box-shadow: 0 2px 6.5px -6.5px black;
+       box-shadow: 0 2px 6.5px -6.5px black;
 }
 
 .masthead:before {
@@ -11903,4 +11909,11 @@ html {
 
 .border-shadow {
   box-shadow: 5px 20px 18px grey;
+}
+
+#about {
+  /* box-shadow: 5px 10px 18px grey; */
+  -webkit-box-shadow: 0 8px 6.5px -6.5px black;
+  -moz-box-shadow: 0 8px 6.5px -6.5px black;
+       box-shadow: 0 8px 6.5px -6.5px black;
 }
